@@ -1,0 +1,296 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kameron&display=swap');
+
+body {
+	font-family: 'Inter', sans-serif;
+	background: #FFF5FC;
+}
+
+.container {
+	width: 1113px;
+	padding: 0 50px;
+	margin: 0 auto;
+}
+
+
+/* header */
+
+.header {
+	padding-top: 30px;
+}
+
+.header-logo-title {
+	display: flex;
+	justify-content: space-between;
+}
+
+.header-title {
+	font-family: 'Kameron', serif;
+	font-weight: 400;
+	font-size: 96px;
+	padding-top: 50px;
+}
+
+.nav {}
+
+.back-nav {
+	background-color: #D1D4E8;
+	border-radius: 30px;
+	width: 730px;
+	height: 63px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+}
+
+.nav-list {
+	display: flex;
+	column-gap: 80px;
+	font-size: 20px;
+	font-weight: 300;
+	font-style: italic;
+	padding: 20px 80px;
+}
+
+.nav-link {
+	color: black;
+}
+
+.header-photo img {
+	border-radius: 55px;
+	margin-top: 30px;
+}
+
+
+.text-header {
+	display: flex;
+	column-gap: 16px;
+	margin-left: 200px;
+	margin-top: 35px;
+}
+
+.text {
+	font-family: 'Kameron';
+	font-weight: 400;
+	font-size: 24px;
+	margin-top: 9px;
+}
+
+/*  about us  */
+
+.back-about {
+	width: 1013px;
+	height: 59px;
+	background: #D1D4E8;
+	border-radius: 30px;
+	margin-top: 35px;
+}
+
+.text-back {
+	font-family: 'Inter';
+	font-style: italic;
+	font-weight: 300;
+	font-size: 32px;
+	padding: 11px 44px;
+}
+
+.items-about {
+	display: flex;
+	margin-bottom: 30px;
+}
+
+.items-about img {
+	margin-top: 30px;
+	border-radius: 44px;
+	width: 382px;
+	height: 382px;
+}
+
+.text-about {
+	margin-top: 30px;
+	margin-left: 20px;
+
+	font-family: 'Kameron';
+	font-size: 24px;
+	align-items: flex-end;
+}
+
+/*  catalog  */
+
+.img-row-1 img {
+	border-radius: 32px;
+}
+
+.img-row-1 {
+	margin-top: 35px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.text-row-1 {
+	margin-top: 15px;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 75px;
+	margin-right: 58px;
+
+	font-family: 'Inter';
+	font-style: italic;
+	font-weight: 300;
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+
+.text-flower-2 {
+	margin-left: 25px;
+}
+
+.text-flower-3 {
+	margin-left: 15px;
+}
+
+.img-row-2 img {
+	border-radius: 32px;
+}
+
+.img-row-2 {
+	margin-top: 35px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.text-row-2 {
+	margin-top: 15px;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 48px;
+	margin-right: 70px;
+
+	font-family: 'Inter';
+	font-style: italic;
+	font-weight: 300;
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+
+.text-flower-6 {
+	margin-right: 15px;
+}
+
+.text-flower-7 {
+	margin-right: 20px;
+}
+
+
+/*  contacts  */
+
+.back-contacts {
+	width: 1013px;
+	height: 59px;
+	background: #D1D4E8;
+	border-radius: 30px;
+	margin-top: 35px;
+}
+
+.items-contacts {
+	display: flex;
+	margin-top: 30px;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+.items-contacts img {
+	border-radius: 40px;
+	width: 409px;
+	height: 412px;
+}
+
+.text-contacts {
+	margin-top: 60px;
+	text-align: center;
+	margin-left: 70px;
+	font-family: 'Inter';
+	font-style: italic;
+	font-weight: 300;
+	font-size: 20px;
+}
+
+ins {
+	font-family: 'Inter';
+	font-style: italic;
+	font-weight: 300;
+	font-size: 22px;
+}
+
+/*  delivery  */
+
+.back-delivery {
+	width: 1013px;
+	height: 59px;
+	background: #D1D4E8;
+	border-radius: 30px;
+	margin-bottom: 30px;
+}
+
+.text-back-del {
+	font-family: 'Inter';
+	font-style: italic;
+	font-weight: 300;
+	font-size: 32px;
+	padding: 11px 44px;
+}
+
+.form-field {
+	text-align: center;
+	padding: 20px;
+
+}
+
+input {
+	height: 50px;
+	width: 684px;
+	font-style: italic;
+	font-weight: 300;
+	font-size: 16px;
+	background: #EDDDD5;
+	padding-left: 11px;
+	border-radius: 32px;
+
+}
+
+
+.form-button {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 63px;
+}
+
+.button {
+	height: 34px;
+	width: 173px;
+	background: #EDDDD5;
+	border-radius: 32px;
+}
+
+
+.foot-block-1 {
+	border-top: 1px solid #000;
+	;
+	font-size: 16px;
+	text-align: center;
+	padding: 50px 0px;
+	font-family: 'Inter';
+	font-style: italic;
+	font-weight: 100;
+	font-size: 16px;
+
+}
+
+.foot-block-1 a {
+	color: #000;
+}
+
+.padding {
+	padding-right: 50px;
+}
